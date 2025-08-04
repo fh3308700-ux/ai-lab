@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI LAB - Feedback</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="fade-in">
+
+<header>
+    <nav>
+        <div class="logo">AI LAB</div>
+        <div class="menu-toggle">☰</div>
+        <ul>
+            <li><a href="index.html" class="nav-link"><span class="nav-icon">🏠</span> Home</a></li>
+            <li><a href="services.html" class="nav-link"><span class="nav-icon">🛠️</span> Services</a></li>
+            <li><a href="about.html" class="nav-link active"><span class="nav-icon">ℹ️</span> About</a></li>
+            <li><a href="contact.html" class="nav-link"><span class="nav-icon">📞</span> Contact</a></li>
+            <li><a href="feedback.html" class="nav-link"><span class="nav-icon">💬</span> Feedback</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!-- Feedback Section -->
+<section class="feedback-section">
+    <canvas id="neuralNetwork"></canvas>
+    <div class="feedback-container">
+        <h2>We Value Your <span>Feedback</span></h2>
+        <p class="feedback-intro">
+            Your insights help us improve AI LAB services and create a better experience for our users.  
+            Please share your thoughts below.
+        </p>
+
+        <form class="feedback-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <textarea placeholder="Your Feedback" rows="5" required></textarea>
+            <button type="submit" class="btn send-btn">💬 Submit Feedback</button>
+        </form>
+    </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
